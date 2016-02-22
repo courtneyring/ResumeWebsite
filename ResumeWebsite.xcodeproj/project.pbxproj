@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D6125F831C385979005AD35C /* mailer.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = mailer.php; sourceTree = "<group>"; };
+		D6125F841C38D2E9005AD35C /* timeline.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = timeline.css; sourceTree = "<group>"; };
+		D6125F851C38D2E9005AD35C /* timeline.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = timeline.js; sourceTree = "<group>"; };
+		D6125F861C3901CB005AD35C /* fail.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = fail.html; sourceTree = "<group>"; };
+		D626CA9A1C370FB900470BFC /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D626CA9B1C37112E00470BFC /* global.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = global.css; sourceTree = "<group>"; };
+		D68A19311C52E26700EDB58F /* scripts.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scripts.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D626CA921C370DFA00470BFC = {
+			isa = PBXGroup;
+			children = (
+				D626CA9A1C370FB900470BFC /* index.html */,
+				D6125F841C38D2E9005AD35C /* timeline.css */,
+				D6125F851C38D2E9005AD35C /* timeline.js */,
+				D6125F831C385979005AD35C /* mailer.php */,
+				D6125F861C3901CB005AD35C /* fail.html */,
+				D626CA9B1C37112E00470BFC /* global.css */,
+				D68A19311C52E26700EDB58F /* scripts.js */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D626CA931C370DFA00470BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = D626CA961C370DFA00470BFC /* Build configuration list for PBXProject "ResumeWebsite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D626CA921C370DFA00470BFC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D626CA971C370DFA00470BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D626CA981C370DFA00470BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D626CA961C370DFA00470BFC /* Build configuration list for PBXProject "ResumeWebsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D626CA971C370DFA00470BFC /* Debug */,
+				D626CA981C370DFA00470BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D626CA931C370DFA00470BFC /* Project object */;
+}
