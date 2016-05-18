@@ -1,0 +1,717 @@
+
+body {
+    position: relative;
+}
+
+#skills {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #40BC86;
+    height:100%
+}
+
+#projects {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #383838;
+    /*opacity:0.9;*/
+    height:100%
+}
+
+#experience {
+    padding-top:50px;
+    height:500px;
+    /*color: #fff;
+    background-color: #199EC7;*/
+    background: url(Experience_Background.png) center no-repeat fixed;
+    background-size:cover;
+    height:100%;
+}
+
+#contact {
+    padding-top:50px;
+    padding-bottom:10%;
+    height:500px;
+    color: #fff;
+    background-color: #40BC86;
+    height:100%
+}
+
+#pitch{
+    background-color:#222;
+    height:100%;
+    opacity:0.9;
+    
+}
+
+
+
+/*-----Nav Bar-----*/
+.navbar-nav>li>a{
+    font-size: 16px;
+    padding:5px 30px 5px 30px;
+    line-height:2.1;
+    
+}
+
+.navbar-brand{
+    font-size:20px;
+    
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+
+}
+
+.navbar-inverse{
+    border-radius:0px;
+    opacity:0.9
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.brand{
+    background-color:#222;
+    opacity:0.9;
+    margin:0px;
+    padding:5px;
+    color:white;
+}
+
+.tagline{
+    background-color:#222;
+    opacity:0.9;
+    color:white;
+    margin:0px;
+    padding-bottom:10px;
+    font-size:16px;
+}
+
+
+#logo{
+    height:95px;
+
+}
+@media only screen and (max-width : 480px) {
+    .brand{
+        font-size:24px;
+    }
+    .subtitle{
+        font-size:24px;
+    }
+    .tagline{
+        font-size:12px;
+    }
+    #logo{
+        height:75px;
+    }
+}
+
+
+/*------About--------*/
+#section1{
+    height:100%;
+}
+
+.about-creative{
+    margin-top:1%;
+    padding-right:20%;
+    padding-left:3%;
+    font-family: 'Indie Flower', cursive;
+    /*transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    animation: slide-in 0.8s forwards;
+    -webkit-animation: slide-in 0.8s forwards;*/
+
+
+}
+
+
+.about-technical{
+    margin-top:1%;
+    padding-left:20%;
+    padding-right:3%;
+    font-family: 'PT Mono';
+    /*transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    animation: slide-in 1s forwards;
+    -webkit-animation: slide-in 1s forwards;*/
+
+}
+
+
+
+/*Technical Slide In From Right*/
+/*@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}*/
+
+
+
+
+.creative-title{
+    font-size:40px;
+    text-align:center;
+}
+
+.creative-details{
+    font-size:30px;
+}
+
+.technical-title{
+    font-size:30px;
+    text-align:center;
+}
+
+.technical-details{
+    
+}
+.profile-image{
+    width:70%;
+    margin-top:-13%;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+/* Image Fade In */
+@-webkit-keyframes example {
+    from {opacity:0}
+    to {opacity: 1;}
+}
+
+
+@keyframes example {
+    from {opacity:0}
+    to {opacity: 1;}
+}
+
+
+@media only screen and (max-width : 1366px) {
+    .profile-image{
+        width:70%;
+        margin-top:-18%;
+    }
+}
+
+@media only screen and (max-width : 1151px) {
+    .creative-title{
+        font-size:25px;
+        text-align:center;
+    }
+    
+    .creative-details{
+        font-size: 20px;
+    }
+    
+    .technical-title{
+        font-size:20px;
+        text-align:center;
+    }
+    
+    .technical-details{
+        font-size:17px;
+    }
+    .profile-image{
+        margin-top:-8%;
+        width:80%;
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+    .about-creative{
+        padding-right:0px;
+    }
+    
+    .about-technical{
+        padding-left:0px;
+    }
+    .creative-title{
+        font-size:42px;
+        text-align:left;
+    }
+    
+    .creative-details{
+        text-align:left;
+    }
+    
+    .technical-title{
+        font-size:35px;
+        text-align:right;
+    }
+    
+    .technical-details{
+        text-align:right;
+    }
+    .profile-image{
+        margin-top:0px;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .creative-title{
+        font-size:28px;
+        text-align:left;
+    }
+
+    .technical-title{
+        font-size:23px;
+        text-align:right;
+    }
+    .profile-image{
+        margin-top:0px;
+        width:100%;
+    }
+}
+
+
+
+
+
+/*-----Section2: Skills-----*/
+
+
+
+.skills-col{
+    padding:0px;
+    border:none;
+
+}
+
+.skills-rule{
+    margin-left:40%;
+    margin-right:40%;
+    border-top: 1px solid black;
+}
+
+.skills-container{
+    padding-top:10%;
+    padding-bottom:225px;
+    height:230px;
+    background-color:#8ed3b5;
+    color:black;
+}
+
+.skills-container>h4{
+    font-size:24px;
+}
+
+.skills-container>p{
+    font-size:18px;
+}
+
+.skills-icon-container{
+    width:35%;
+    margin:0 auto -20% auto;
+    padding:9%;
+    background-color:#8ed3b5;
+    border-radius: 60px;
+}
+
+.skills-icon{
+
+    margin:0px 10px 30% 10px;
+    height: 40px;
+    width:70%;
+}
+
+
+@media only screen and (max-width : 992px) {
+    .skills-col{
+        padding:50px 15px 0px 15px;
+    }
+    
+    .even{
+        background-color:#8ed3b5;
+    }
+    
+    .odd{
+        background-color:#40BC86;
+    }
+    
+    .skills-container{
+
+        height:auto;
+        padding-top:0px;
+        padding-bottom:80px;
+        
+    }
+    
+    .skills-container>h4{
+        font-size:26px;
+    }
+    
+    .skills-container>p{
+        font-size:18px;
+    }
+    
+    .skills-icon-container{
+        width:15%;
+        height:auto;
+        margin:0  auto;
+
+        padding:0px;
+    }
+    
+    .skills-icon{
+        margin:0px;
+        height;auto;
+        width:100%;
+        height:auto;
+    }
+    
+}
+
+
+
+/*------Section3: Projects----*/
+.project-title, .project-title:hover{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+}
+
+
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-title{
+    font-size:18px;
+    text-align:center;
+}
+
+.fancybox>p{
+    text-decoration:none;
+}
+
+.fancybox>p:hover{
+    text-decoration:none;
+}
+
+.thumb {
+    position: relative;
+    float: left;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+
+
+
+
+@-webkit-keyframes projects {
+    from   {padding-top:20%;}
+    to  {padding-top:15%;}
+}
+
+
+@keyframes projects {
+    from   {padding-top:20%;}
+    to  {padding-top:15%;}
+}
+
+@-webkit-keyframes background-opacity {
+    from   {background: rgba(0,0,0,0);}
+    to  {background: rgba(0,0,0,0.7);}
+}
+
+
+@keyframes background-opacity {
+    from   {background: rgba(0,0,0,0);}
+    to  {background: rgba(0,0,0,0.7);}
+}
+
+
+.text {
+
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    background: #999;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    animation: background-opacity 0.2s ease-in-out;
+
+}
+
+.projects-margin{
+    width:6.25%;
+    padding:0px;
+}
+
+.projects-col{
+    width:25%;
+}
+
+.thumb:hover .text {
+    display: block
+}
+
+.text>h1{
+    text-decoration:underline;
+    padding-top:15%;
+    animation: projects 0.2s ease-in-out;
+}
+
+.text>p{
+    letter-spacing:0.01em;
+    padding-bottom:10px;
+}
+
+.text>h6{
+    text-transform:uppercase;
+    color:white;
+    text-decoration:underline;
+    
+}
+
+@media only screen and (max-width: 992px){
+    .text>h1{
+        font-size:26px;
+    }
+    
+    .text>p{
+        letter-spacing:0.01em;
+        font-size:18px;
+    }
+    
+    .text>h6{
+        font-size:14px;
+        
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    .projects-col{
+        width:100%;
+        padding-left:10%;
+        padding-right:10%;
+        padding-bottom:5%;
+    }
+    
+    .thumb:hover .text {
+        display: none;
+    }
+    
+
+}
+
+/*@media only screen and (max-width : 480px) {
+    .projects-margin{
+        width:5%;
+        padding:0px;
+    }
+    
+    .projects-col{
+        width:90%;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+/*-------Section 4: Experience---*/
+
+#experience>.subtitle{
+    color:#383838;
+}
+
+.timeline-time, {
+    color:#383838;
+}
+
+.timeline .timeline-row .timeline-time small{
+    color:#383838;
+    font-weight:bold;
+}
+
+.timeline .timeline-row .timeline-content{
+    background-color: #383838;
+    color:white;
+}
+
+#resume{
+    padding-bottom:40px;
+}
+
+#resume-button{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.bg-primary{
+    background-color:#40BC86;
+}
+
+
+.panel-body>ul{
+    color:black;
+}
+
+.panel{
+    min-height: 201px;
+
+}
+
+
+
+.panel>.panel-heading{
+    font-size:18px;
+    text-align:center;
+}
+
+
+
+.cigna-logo{
+    height:75px;
+    margin-top:-5px;
+    margin-left:-5px;
+}
+
+.cigna-title{
+    margin-top:-20px;
+}
+
+.mpro-logo{
+    height:50px;
+    margin-top:10px;
+}
+
+.mpro-title{
+    margin-top:-5px;
+}
+
+.perich-logo{
+    height:70px;
+}
+
+.perich-title{
+    margin-top:-5px;
+}
+
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    margin-left:-20px;
+}
+
+
+
+/*--------Section 5: Contact-----*/
+
+.form-column{
+    padding-left:60px;
+    padding-right:60px;
+    padding-top:40px
+}
+
+.social-column{
+    border-left: 5px solid white;
+    padding:40px;
+}
+
+@media only screen and (max-width : 992px) {
+    .social-column{
+        border-left:none;
+        text-align: left;
+
+    }
+
+}
+
+.fa-stack-1x {
+    color:white;
+}
+.icon-github {
+    color:#4183c4;
+    font-size:50px;
+    margin-right:10px;
+}
+
+.icon-linkedin {
+    color:#007bb5;
+    font-size:50px;
+    margin-right:10px;
+}
+
+.icon-behance{
+    color:#1769ff;
+    font-size:50px;
+    margin-right:10px;
+}
+
+.social-links>a{
+    font-size:20px;
+    color:white;
+}
+
+.form-control{
+    box-shadow:none;
+}
+
+.btn{
+    background-color:#d9534f;
+    color:white;
+    border:0px;
+    font-size:18px;
+}
+
+/*---------Section 6: Pitch-----------*/
+#pitch{
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#pitch>p{
+    color:white;
+    font-size:25px;
+    text-align:center;
+}
+
